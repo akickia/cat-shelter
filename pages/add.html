@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/style.css">
+  <title>Admin Cats</title>
+</head>
+<body>
+  <header>
+    <h1>Administrate</h1>
+    <a href="admin.html"><button>Back to admin</button></a>
+  </header>
+  <main>
+    <h1>Add new cat</h1>
+    
+    <form action="admin.html">
+
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+      <label for="age">Age:</label>
+      <input type="number" id="age">      
+      
+      <div class="flex">
+        <div>
+          <label for="sex">Sex:</label>
+          <select id="sex">
+            <option></option>
+            <option>Female</option>
+            <option>Male</option>
+          </select>
+        </div>
+        <div>
+          <label for="neutered">Neutered:</label>
+          <select id="neutered">
+            <option></option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+      </div>
+      <label for="img">Add image:</label>
+      <input type="text" id="img">
+    <button class="submit" type="submit">Add</button>
+    </form>
+
+  </main>
+
+
+<footer>By akickia</footer>
+
+<script src="../script/add.js"></script>
+
+</body>
+</html>
